@@ -1,4 +1,5 @@
-# Final Project  
+# 328Games
+
 ## Simple Games on ATmega328P  
 
 ---
