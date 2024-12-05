@@ -1,65 +1,123 @@
-FinalProject
-Simple Games on ATmega328P
-Introduction
-What it does: This project implements a set of simple games (e.g., Snake, Blocks) on an ATmega328P microcontroller, using an LED matrix and an LCD screen for display.
-Purpose: To provide an interactive and educational platform for demonstrating basic game development on embedded systems.
-Idea behind it: Combining creativity and technology to build retro-style games on a low-power microcontroller.
-Why it’s useful: It showcases fundamental principles of game logic and embedded programming in a fun and engaging way.
-General Description
-Block diagram of the project:
+# Final Project  
+## Simple Games on ATmega328P  
 
-ATmega328P - Central processing unit handling game logic and user input.
-LED Matrix - Displays game visuals, such as Snake's movement or falling blocks.
-LCD Screen - Displays scores, game options, and messages.
-Buttons:
-Direction buttons for game control.
-Start/Select button to navigate menus or restart games.
-Hardware Design
-List of Components
-ATmega328P microcontroller
-LED matrix module (e.g., 8x8)
-16x2 LCD with I2C adapter
-Buttons (5-6 for navigation and control)
-Resistors, jumper wires, breadboard/PCB
-Electrical Schematics
-Include:
+---
 
-Connections between ATmega328P, LED matrix, LCD, and buttons.
-Proper pull-up resistors for buttons and connections for I2C communication with the LCD.
-![Electrical Schematic](images/schemelectric.png)
+### 📘 Introduction  
 
-Software Design
-Development Environment: PlatformIO
-Libraries used:
-Adafruit_GFX for LED matrix graphics
-Adafruit_LED_Backpack for LED matrix control
-LiquidCrystal_I2C.h for LCD interaction
-Implemented Games and Features
-Snake:
-The player controls a growing snake to collect food, avoiding walls and itself.
-Blocks:
-A Tetris-inspired game where the player arranges falling blocks to clear lines.
-Functions Implemented
-Game selection menu
-Real-time game updates and rendering
-Input handling for navigation and gameplay
-Score tracking and display
-Results
-The system successfully runs both games:
-Smooth and responsive gameplay.
-Scores are displayed in real-time on the LCD.
-The design demonstrates efficient use of microcontroller resources.
-Conclusions
-This project highlights how embedded systems can power interactive applications, showcasing both hardware design and software logic. It's an excellent example of retro gaming combined with modern microcontroller programming.
+- **What it does:** This project implements a collection of simple games, such as **Snake** and **Blocks**, on an **ATmega328P microcontroller**. It uses an LED matrix and an LCD screen to provide interactive gameplay.  
+- **Purpose:** To create a retro-style gaming experience while demonstrating embedded systems programming.  
+- **Idea behind it:** Showcasing the potential of low-power microcontrollers to handle creative and fun applications.  
+- **Why it’s useful:** Combines educational value with entertainment, making it an engaging project for learning microcontroller programming.  
 
-Source Code and Other Resources to Include on GitHub
-Organize files as follows:
-src/: Source code.
-hardware/: Electrical schematics.
-images/: Photos and diagrams (block diagram, electrical schematics).
-README.md: This document.
+---
 
+### 🛠️ General Description  
 
+#### 🔧 Block Diagram  
 
+- **ATmega328P**: Core processor handling game logic, rendering, and user inputs.  
+- **LED Matrix**: Displays game visuals such as snake movement or falling blocks.  
+- **LCD Screen**: Shows scores, instructions, and menu options.  
+- **Buttons:**  
+  - **Direction buttons**: Up, down, left, right.  
+  - **Start/Select button**: Menu navigation and game restart.  
 
+`![Block Diagram](images/block_diagram.png)`  
 
+---
+
+### 🖥️ Hardware Design  
+
+#### 📋 List of Components  
+
+- **ATmega328P microcontroller**  
+- **LED matrix module** (e.g., 8x8 or 16x16)  
+- **16x2 LCD with I2C adapter**  
+- **Push-buttons** (5 or 6 for controls)  
+- **Resistors** for pull-up circuits  
+- **Jumper wires**  
+- **Breadboard** or **custom PCB**  
+
+#### ⚡ Electrical Schematics  
+
+- Proper wiring between ATmega328P, the LED matrix, and LCD.  
+- I2C connections for the LCD.  
+- Pull-up resistors for push-buttons.  
+
+`![Electrical Schematic](images/electrical_schematic.png)`  
+
+---
+
+### 🧑‍💻 Software Design  
+
+#### 💻 Development Environment  
+- **IDE:** PlatformIO with Arduino Framework.  
+- **Programming Language:** C/C++  
+
+#### 📚 Libraries Used  
+
+- **`Adafruit_GFX`**: Graphics library for LED matrix visuals.  
+- **`Adafruit_LED_Backpack`**: For controlling the LED matrix.  
+- **`LiquidCrystal_I2C`**: Simplifies LCD integration.  
+
+#### 🎮 Implemented Games  
+
+- **Snake**:  
+  - Navigate the snake to collect food.  
+  - Avoid walls and self-collision to continue growing.  
+- **Blocks**:  
+  - Arrange falling blocks to clear rows.  
+  - Increase difficulty with faster block drops.  
+
+#### 🛠️ Functions Implemented  
+
+- **Game Menu**: Allows the player to select a game.  
+- **Rendering System**: Handles real-time updates to the LED matrix.  
+- **Input Management**: Reads button presses and processes them into game actions.  
+- **Score Display**: Shows the player’s score on the LCD.  
+
+---
+
+### 📊 Results  
+
+- **Snake Game**:  
+  - Smooth gameplay with responsive controls.  
+  - Dynamic score updates displayed on the LCD.  
+- **Blocks Game**:  
+  - Blocks move fluidly with increasing speed.  
+  - Rows clear and scores increment properly.  
+- **System Performance**:  
+  - Efficient resource utilization ensures minimal delays.  
+
+---
+
+### 🏁 Conclusions  
+
+- This project successfully demonstrates the capabilities of the **ATmega328P** in handling interactive applications.  
+- It provides a fun and educational way to explore microcontroller programming while showcasing efficient use of resources.  
+
+---
+
+### 📁 Repository Structure  
+
+- **`src/`**: Source code for the project.  
+- **`hardware/`**: Electrical schematics and PCB designs.  
+- **`images/`**: Block diagrams, schematics, and project photos.  
+- **README.md**: This document.  
+
+---
+
+### 📷 Visuals  
+
+- Include photos or screenshots of:  
+  - The final hardware setup.  
+  - The LED matrix during gameplay.  
+  - The LCD displaying scores or menus.  
+
+---
+
+### 🔗 Useful References  
+
+- [ATmega328P Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328P-Complete.pdf)  
+- [Adafruit GFX Library](https://github.com/adafruit/Adafruit-GFX-Library)  
