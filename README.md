@@ -121,4 +121,8 @@
 ### 🔗 Useful References  
 
 - [ATmega328P Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328P-Complete.pdf)  
-- [Adafruit GFX Library](https://github.com/adafruit/Adafruit-GFX-Library)  
+- [Adafruit GFX Library](https://github.com/adafruit/Adafruit-GFX-Library)
+- [LCD](https://www.vishay.com/docs/37484/lcd016n002bcfhet.pdf)
+- [JOYSTICK](https://components101.com/modules/joystick-module)
+- [MATRICE](https://docs.arduino.cc/resources/datasheets/ABX00087-datasheet.pdf)
+- [BUZZER](https://www.mouser.com/datasheet/2/400/ef532_ps-13444.pdf?srsltid=AfmBOoq9dwSIYvJ2kUwKDAh7E-q749B0eJasktl77iqzpBtocyD3lbGI)
