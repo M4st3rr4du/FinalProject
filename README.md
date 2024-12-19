@@ -32,13 +32,51 @@
 
 #### 📋 List of Components  
 
-- **ATmega328P microcontroller**  
-- **LED matrix module** (e.g., 8x8 or 16x16)  
-- **16x2 LCD with I2C adapter**  
-- **Push-buttons** (5 or 6 for controls)  
-- **Resistors** for pull-up circuits  
-- **Jumper wires**  
-- **Breadboard** or **custom PCB**  
+## 🔧 Block Diagram
+
+### ATmega328P
+- **Core processor** handling:
+  - Game logic
+  - Rendering visuals
+  - Processing user inputs  
+
+---
+
+### LED Matrix
+- **Function**: Displays game visuals:
+  - Snake movement
+  - Falling blocks
+  - Real-time updates  
+
+---
+
+### LCD Screen
+- **Function**: 
+  - Displays scores, instructions, and menu options.  
+
+---
+
+### Buttons
+1. **Direction buttons**:
+   - **Purpose**: Up, Down, Left, Right navigation.  
+2. **Start/Select button**:
+   - **Purpose**: Menu navigation and game restart.  
+
+---
+
+### Joystick
+- **Function**: 
+  - Analog input for precise control in games.
+  - Replaces or complements direction buttons for smoother gameplay.  
+
+---
+
+### Buzzer
+- **Function**: 
+  - Provides audio feedback:
+    - Button presses
+    - Game events (e.g., collisions, level-ups).  
+
 
 #### ⚡ Electrical Schematics  
 
