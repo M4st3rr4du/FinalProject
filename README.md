@@ -108,7 +108,8 @@
 - **README.md**: This document.  
 
 ---
-
+#### 🛠️ WOWKI
+https://wokwi.com/projects/417661866374338561
 ### 📷 Visuals  
  <img src= "https://github.com/M4st3rr4du/FinalProject/blob/main/WhatsApp%20Image%202024-12-19%20at%2016.50.39_2f852fab.jpg" alt="Image 6" width="300">
  <img src= "https://github.com/M4st3rr4du/FinalProject/blob/main/WhatsApp%20Image%202024-12-19%20at%2016.50.39_31861100.jpg" alt="Image 6" width="300">
