@@ -110,10 +110,10 @@
 ---
 
 ### 📷 Visuals  
- <img src= " https://github.com/M4st3rr4du/FinalProject/blob/main/WhatsApp%20Image%202024-12-19%20at%2016.50.39_2f852fab.jpg" alt="Image 6" width="300">
- <img src= "https://github.com/M4st3rr4du/FinalProject/blob/main/WhatsApp%20Image%202024-12-19%20at%2016.50.39_31861100.jpg " alt="Image 6" width="300">
- <img src= " https://github.com/M4st3rr4du/FinalProject/blob/main/WhatsApp%20Image%202024-12-19%20at%2016.50.42_640286b7.jpg" alt="Image 6" width="300">
- <img src= "https://github.com/M4st3rr4du/FinalProject/blob/main/poza1.png " alt=" Image 6" width="300">
+ <img src= "https://github.com/M4st3rr4du/FinalProject/blob/main/WhatsApp%20Image%202024-12-19%20at%2016.50.39_2f852fab.jpg" alt="Image 6" width="300">
+ <img src= "https://github.com/M4st3rr4du/FinalProject/blob/main/WhatsApp%20Image%202024-12-19%20at%2016.50.39_31861100.jpg" alt="Image 6" width="300">
+ <img src= "https://github.com/M4st3rr4du/FinalProject/blob/main/WhatsApp%20Image%202024-12-19%20at%2016.50.42_640286b7.jpg" alt="Image 6" width="300">
+ <img src= "https://github.com/M4st3rr4du/FinalProject/blob/main/poza1.png" alt=" Image 6" width="300">
  
 - Include photos or screenshots of:  
   - The final hardware setup.  
