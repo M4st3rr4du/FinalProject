@@ -143,7 +143,11 @@
 - **`src/`**: Source code for the project.  
 - **`hardware/`**: Electrical schematics and PCB designs.  
 - **`images/`**: Block diagrams, schematics, and project photos.  
-- **README.md**: This document.  
+- **README.md**: This document.
+-   
+#### 🛠️ SCHEMA BLOCK
+
+ <img src= "https://github.com/M4st3rr4du/FinalProject/blob/main/Screenshot%202024-12-19%20180404.png" alt="Image 6" width="300">
 
 ---
 #### 🛠️ WOWKI
