@@ -111,6 +111,7 @@
 
 ### 📷 Visuals  
 
+
 - Include photos or screenshots of:  
   - The final hardware setup.  
   - The LED matrix during gameplay.  
